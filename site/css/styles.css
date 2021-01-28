@@ -141,7 +141,7 @@ body {
 /*medium devices*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	#logo-img {
-	background: url('../images/resturant-logo_medium.png') no-repeat;
+	background: url('../images/restaurant-logo_medium.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin: 5px 5px 5px 0;
@@ -162,7 +162,7 @@ body {
 	}
 }
 
-/*xtra small devices*/
+/*extra small devices*/
 @media (max-width: 767px) {
 	.navbar-brand {
 		padding-top: 10px;
@@ -215,6 +215,17 @@ body {
     margin: 0 auto 15px;
   }
 
+  .panel-footer section {
+  	margin-bottom: 30px;
+  	text-align: center;
+  }
+  .panel-footer section:nth-child(3){
+  	margin-bottom: 0;
+  }
+  .panel-footer section hr {
+  	width: 50%;
+  }
+
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -231,4 +242,36 @@ body {
     width: 280px;
     margin: 0 auto 15px;
   }
+}
+
+/*footer*/
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
 }
