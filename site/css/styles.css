@@ -225,17 +225,6 @@ body {
   .panel-footer section hr {
     width: 50%;
   }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;
-  }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -382,3 +371,17 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
+
+/* extra small devices single category page media query */
+@media (max-width: 767px) {
+  .menu-item-photo {
+   margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+  }
